@@ -25,7 +25,6 @@ pages:
           C2: configs/resources/audio/mono_c2.wav
           C3: configs/resources/audio/mono_c3.wav
 
-
     - type: finish
       name: Thank you
       content: Thank you for attending

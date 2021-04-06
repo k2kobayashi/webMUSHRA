@@ -1,0 +1,194 @@
+# Likert single stimulus page 1 stimuli, 5 responses
+
+
+testname: Likert Single Stimulus with four responses
+testId: lss_4scale
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
+remoteService: service/write.php
+
+pages:
+
+    - type: likert_single_stimulus
+      id: lss2
+      name: likert
+      content: test description
+      stimuli:
+          itug2itug_cs0_0: wav/vcc2018v1_mlfb512_vqvae_itug2itug_cs0_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_cs0/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM4/30001_org-SM4_cv-TM1.wav
+          itug2itug_noncausal_0: wav/vcc2018v1_mlfb512_vqvae_itug2itug_noncausal_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_noncausal/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM4/30001_org-SM4_cv-TM1.wav
+          sincconv2itu-g_cs2_0: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_cs2_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_cs2/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM4/30001_org-SM4_cv-TM1.wav
+          itug2itug_cs2_0: wav/vcc2018v1_mlfb512_vqvae_itug2itug_cs2_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_cs2/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM4/30001_org-SM4_cv-TM1.wav
+          han2han_cs2_0: wav/vcc2018v1_mlfb512_vqvae_han2han_cs2_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_cs2/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SM4/30001_org-SM4_cv-TM1.wav
+          han2han_noncausal_0: wav/vcc2018v1_mlfb512_vqvae_han2han_noncausal_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_noncausal/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SM4/30001_org-SM4_cv-TM1.wav
+          han2han_cs0_0: wav/vcc2018v1_mlfb512_vqvae_han2han_cs0_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_cs0/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SM4/30001_org-SM4_cv-TM1.wav
+          sincconv2itu-g_cs0_0: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_cs0_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_cs0/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM4/30001_org-SM4_cv-TM1.wav
+          sincconv2itu-g_noncausal_0: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_noncausal_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_noncausal/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM4/30001_org-SM4_cv-TM1.wav
+          han_noncausal_pwg_0: wav/train_nodev_all_parallel_wavegan.v1.original.noncausal/wav/checkpoint-400000steps/eval_all/TM1_30001_gen.wav
+          han_causal_pwg_0: wav/train_nodev_all_parallel_wavegan.v1.original/wav/checkpoint-400000steps/eval_all/TM1_30001_gen.wav
+          itug_causal_pwg_0: wav/train_nodev_all_parallel_wavegan.v1.itu-g/wav/checkpoint-400000steps/eval_all/TM1_30001_gen.wav
+          itug2itug_cs0_1: wav/vcc2018v1_mlfb512_vqvae_itug2itug_cs0_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_cs0/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM1/30006_org-SM1_cv-TF1.wav
+          itug2itug_noncausal_1: wav/vcc2018v1_mlfb512_vqvae_itug2itug_noncausal_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_noncausal/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM1/30006_org-SM1_cv-TF1.wav
+          sincconv2itu-g_cs2_1: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_cs2_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_cs2/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM1/30006_org-SM1_cv-TF1.wav
+          itug2itug_cs2_1: wav/vcc2018v1_mlfb512_vqvae_itug2itug_cs2_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_cs2/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM1/30006_org-SM1_cv-TF1.wav
+          han2han_cs2_1: wav/vcc2018v1_mlfb512_vqvae_han2han_cs2_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_cs2/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SM1/30006_org-SM1_cv-TF1.wav
+          han2han_noncausal_1: wav/vcc2018v1_mlfb512_vqvae_han2han_noncausal_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_noncausal/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SM1/30006_org-SM1_cv-TF1.wav
+          han2han_cs0_1: wav/vcc2018v1_mlfb512_vqvae_han2han_cs0_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_cs0/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SM1/30006_org-SM1_cv-TF1.wav
+          sincconv2itu-g_cs0_1: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_cs0_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_cs0/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM1/30006_org-SM1_cv-TF1.wav
+          sincconv2itu-g_noncausal_1: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_noncausal_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_noncausal/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM1/30006_org-SM1_cv-TF1.wav
+          han_noncausal_pwg_1: wav/train_nodev_all_parallel_wavegan.v1.original.noncausal/wav/checkpoint-400000steps/eval_all/TF1_30006_gen.wav
+          han_causal_pwg_1: wav/train_nodev_all_parallel_wavegan.v1.original/wav/checkpoint-400000steps/eval_all/TF1_30006_gen.wav
+          itug_causal_pwg_1: wav/train_nodev_all_parallel_wavegan.v1.itu-g/wav/checkpoint-400000steps/eval_all/TF1_30006_gen.wav
+          itug2itug_cs0_2: wav/vcc2018v1_mlfb512_vqvae_itug2itug_cs0_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_cs0/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF1/30016_org-SF1_cv-TM2.wav
+          itug2itug_noncausal_2: wav/vcc2018v1_mlfb512_vqvae_itug2itug_noncausal_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_noncausal/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF1/30016_org-SF1_cv-TM2.wav
+          sincconv2itu-g_cs2_2: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_cs2_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_cs2/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF1/30016_org-SF1_cv-TM2.wav
+          itug2itug_cs2_2: wav/vcc2018v1_mlfb512_vqvae_itug2itug_cs2_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_cs2/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF1/30016_org-SF1_cv-TM2.wav
+          han2han_cs2_2: wav/vcc2018v1_mlfb512_vqvae_han2han_cs2_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_cs2/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SF1/30016_org-SF1_cv-TM2.wav
+          han2han_noncausal_2: wav/vcc2018v1_mlfb512_vqvae_han2han_noncausal_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_noncausal/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SF1/30016_org-SF1_cv-TM2.wav
+          han2han_cs0_2: wav/vcc2018v1_mlfb512_vqvae_han2han_cs0_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_cs0/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SF1/30016_org-SF1_cv-TM2.wav
+          sincconv2itu-g_cs0_2: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_cs0_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_cs0/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF1/30016_org-SF1_cv-TM2.wav
+          sincconv2itu-g_noncausal_2: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_noncausal_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_noncausal/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF1/30016_org-SF1_cv-TM2.wav
+          han_noncausal_pwg_2: wav/train_nodev_all_parallel_wavegan.v1.original.noncausal/wav/checkpoint-400000steps/eval_all/TM2_30016_gen.wav
+          han_causal_pwg_2: wav/train_nodev_all_parallel_wavegan.v1.original/wav/checkpoint-400000steps/eval_all/TM2_30016_gen.wav
+          itug_causal_pwg_2: wav/train_nodev_all_parallel_wavegan.v1.itu-g/wav/checkpoint-400000steps/eval_all/TM2_30016_gen.wav
+          itug2itug_cs0_3: wav/vcc2018v1_mlfb512_vqvae_itug2itug_cs0_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_cs0/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF1/30002_org-SF1_cv-TF1.wav
+          itug2itug_noncausal_3: wav/vcc2018v1_mlfb512_vqvae_itug2itug_noncausal_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_noncausal/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF1/30002_org-SF1_cv-TF1.wav
+          sincconv2itu-g_cs2_3: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_cs2_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_cs2/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF1/30002_org-SF1_cv-TF1.wav
+          itug2itug_cs2_3: wav/vcc2018v1_mlfb512_vqvae_itug2itug_cs2_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_cs2/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF1/30002_org-SF1_cv-TF1.wav
+          han2han_cs2_3: wav/vcc2018v1_mlfb512_vqvae_han2han_cs2_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_cs2/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SF1/30002_org-SF1_cv-TF1.wav
+          han2han_noncausal_3: wav/vcc2018v1_mlfb512_vqvae_han2han_noncausal_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_noncausal/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SF1/30002_org-SF1_cv-TF1.wav
+          han2han_cs0_3: wav/vcc2018v1_mlfb512_vqvae_han2han_cs0_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_cs0/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SF1/30002_org-SF1_cv-TF1.wav
+          sincconv2itu-g_cs0_3: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_cs0_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_cs0/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF1/30002_org-SF1_cv-TF1.wav
+          sincconv2itu-g_noncausal_3: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_noncausal_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_noncausal/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF1/30002_org-SF1_cv-TF1.wav
+          han_noncausal_pwg_3: wav/train_nodev_all_parallel_wavegan.v1.original.noncausal/wav/checkpoint-400000steps/eval_all/TF1_30002_gen.wav
+          han_causal_pwg_3: wav/train_nodev_all_parallel_wavegan.v1.original/wav/checkpoint-400000steps/eval_all/TF1_30002_gen.wav
+          itug_causal_pwg_3: wav/train_nodev_all_parallel_wavegan.v1.itu-g/wav/checkpoint-400000steps/eval_all/TF1_30002_gen.wav
+          itug2itug_cs0_4: wav/vcc2018v1_mlfb512_vqvae_itug2itug_cs0_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_cs0/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM3/30030_org-SM3_cv-TM2.wav
+          itug2itug_noncausal_4: wav/vcc2018v1_mlfb512_vqvae_itug2itug_noncausal_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_noncausal/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM3/30030_org-SM3_cv-TM2.wav
+          sincconv2itu-g_cs2_4: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_cs2_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_cs2/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM3/30030_org-SM3_cv-TM2.wav
+          itug2itug_cs2_4: wav/vcc2018v1_mlfb512_vqvae_itug2itug_cs2_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_cs2/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM3/30030_org-SM3_cv-TM2.wav
+          han2han_cs2_4: wav/vcc2018v1_mlfb512_vqvae_han2han_cs2_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_cs2/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SM3/30030_org-SM3_cv-TM2.wav
+          han2han_noncausal_4: wav/vcc2018v1_mlfb512_vqvae_han2han_noncausal_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_noncausal/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SM3/30030_org-SM3_cv-TM2.wav
+          han2han_cs0_4: wav/vcc2018v1_mlfb512_vqvae_han2han_cs0_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_cs0/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SM3/30030_org-SM3_cv-TM2.wav
+          sincconv2itu-g_cs0_4: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_cs0_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_cs0/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM3/30030_org-SM3_cv-TM2.wav
+          sincconv2itu-g_noncausal_4: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_noncausal_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_noncausal/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM3/30030_org-SM3_cv-TM2.wav
+          han_noncausal_pwg_4: wav/train_nodev_all_parallel_wavegan.v1.original.noncausal/wav/checkpoint-400000steps/eval_all/TM2_30030_gen.wav
+          han_causal_pwg_4: wav/train_nodev_all_parallel_wavegan.v1.original/wav/checkpoint-400000steps/eval_all/TM2_30030_gen.wav
+          itug_causal_pwg_4: wav/train_nodev_all_parallel_wavegan.v1.itu-g/wav/checkpoint-400000steps/eval_all/TM2_30030_gen.wav
+          itug2itug_cs0_5: wav/vcc2018v1_mlfb512_vqvae_itug2itug_cs0_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_cs0/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM2/30012_org-SM2_cv-TF1.wav
+          itug2itug_noncausal_5: wav/vcc2018v1_mlfb512_vqvae_itug2itug_noncausal_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_noncausal/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM2/30012_org-SM2_cv-TF1.wav
+          sincconv2itu-g_cs2_5: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_cs2_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_cs2/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM2/30012_org-SM2_cv-TF1.wav
+          itug2itug_cs2_5: wav/vcc2018v1_mlfb512_vqvae_itug2itug_cs2_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_cs2/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM2/30012_org-SM2_cv-TF1.wav
+          han2han_cs2_5: wav/vcc2018v1_mlfb512_vqvae_han2han_cs2_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_cs2/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SM2/30012_org-SM2_cv-TF1.wav
+          han2han_noncausal_5: wav/vcc2018v1_mlfb512_vqvae_han2han_noncausal_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_noncausal/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SM2/30012_org-SM2_cv-TF1.wav
+          han2han_cs0_5: wav/vcc2018v1_mlfb512_vqvae_han2han_cs0_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_cs0/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SM2/30012_org-SM2_cv-TF1.wav
+          sincconv2itu-g_cs0_5: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_cs0_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_cs0/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM2/30012_org-SM2_cv-TF1.wav
+          sincconv2itu-g_noncausal_5: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_noncausal_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_noncausal/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM2/30012_org-SM2_cv-TF1.wav
+          han_noncausal_pwg_5: wav/train_nodev_all_parallel_wavegan.v1.original.noncausal/wav/checkpoint-400000steps/eval_all/TF1_30012_gen.wav
+          han_causal_pwg_5: wav/train_nodev_all_parallel_wavegan.v1.original/wav/checkpoint-400000steps/eval_all/TF1_30012_gen.wav
+          itug_causal_pwg_5: wav/train_nodev_all_parallel_wavegan.v1.itu-g/wav/checkpoint-400000steps/eval_all/TF1_30012_gen.wav
+          itug2itug_cs0_6: wav/vcc2018v1_mlfb512_vqvae_itug2itug_cs0_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_cs0/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF1/30033_org-SF1_cv-TM1.wav
+          itug2itug_noncausal_6: wav/vcc2018v1_mlfb512_vqvae_itug2itug_noncausal_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_noncausal/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF1/30033_org-SF1_cv-TM1.wav
+          sincconv2itu-g_cs2_6: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_cs2_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_cs2/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF1/30033_org-SF1_cv-TM1.wav
+          itug2itug_cs2_6: wav/vcc2018v1_mlfb512_vqvae_itug2itug_cs2_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_cs2/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF1/30033_org-SF1_cv-TM1.wav
+          han2han_cs2_6: wav/vcc2018v1_mlfb512_vqvae_han2han_cs2_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_cs2/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SF1/30033_org-SF1_cv-TM1.wav
+          han2han_noncausal_6: wav/vcc2018v1_mlfb512_vqvae_han2han_noncausal_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_noncausal/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SF1/30033_org-SF1_cv-TM1.wav
+          han2han_cs0_6: wav/vcc2018v1_mlfb512_vqvae_han2han_cs0_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_cs0/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SF1/30033_org-SF1_cv-TM1.wav
+          sincconv2itu-g_cs0_6: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_cs0_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_cs0/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF1/30033_org-SF1_cv-TM1.wav
+          sincconv2itu-g_noncausal_6: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_noncausal_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_noncausal/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF1/30033_org-SF1_cv-TM1.wav
+          han_noncausal_pwg_6: wav/train_nodev_all_parallel_wavegan.v1.original.noncausal/wav/checkpoint-400000steps/eval_all/TM1_30033_gen.wav
+          han_causal_pwg_6: wav/train_nodev_all_parallel_wavegan.v1.original/wav/checkpoint-400000steps/eval_all/TM1_30033_gen.wav
+          itug_causal_pwg_6: wav/train_nodev_all_parallel_wavegan.v1.itu-g/wav/checkpoint-400000steps/eval_all/TM1_30033_gen.wav
+          itug2itug_cs0_7: wav/vcc2018v1_mlfb512_vqvae_itug2itug_cs0_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_cs0/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF4/30005_org-SF4_cv-TF1.wav
+          itug2itug_noncausal_7: wav/vcc2018v1_mlfb512_vqvae_itug2itug_noncausal_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_noncausal/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF4/30005_org-SF4_cv-TF1.wav
+          sincconv2itu-g_cs2_7: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_cs2_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_cs2/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF4/30005_org-SF4_cv-TF1.wav
+          itug2itug_cs2_7: wav/vcc2018v1_mlfb512_vqvae_itug2itug_cs2_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_cs2/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF4/30005_org-SF4_cv-TF1.wav
+          han2han_cs2_7: wav/vcc2018v1_mlfb512_vqvae_han2han_cs2_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_cs2/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SF4/30005_org-SF4_cv-TF1.wav
+          han2han_noncausal_7: wav/vcc2018v1_mlfb512_vqvae_han2han_noncausal_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_noncausal/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SF4/30005_org-SF4_cv-TF1.wav
+          han2han_cs0_7: wav/vcc2018v1_mlfb512_vqvae_han2han_cs0_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_cs0/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SF4/30005_org-SF4_cv-TF1.wav
+          sincconv2itu-g_cs0_7: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_cs0_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_cs0/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF4/30005_org-SF4_cv-TF1.wav
+          sincconv2itu-g_noncausal_7: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_noncausal_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_noncausal/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF4/30005_org-SF4_cv-TF1.wav
+          han_noncausal_pwg_7: wav/train_nodev_all_parallel_wavegan.v1.original.noncausal/wav/checkpoint-400000steps/eval_all/TF1_30005_gen.wav
+          han_causal_pwg_7: wav/train_nodev_all_parallel_wavegan.v1.original/wav/checkpoint-400000steps/eval_all/TF1_30005_gen.wav
+          itug_causal_pwg_7: wav/train_nodev_all_parallel_wavegan.v1.itu-g/wav/checkpoint-400000steps/eval_all/TF1_30005_gen.wav
+          itug2itug_cs0_8: wav/vcc2018v1_mlfb512_vqvae_itug2itug_cs0_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_cs0/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM4/30006_org-SM4_cv-TM1.wav
+          itug2itug_noncausal_8: wav/vcc2018v1_mlfb512_vqvae_itug2itug_noncausal_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_noncausal/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM4/30006_org-SM4_cv-TM1.wav
+          sincconv2itu-g_cs2_8: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_cs2_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_cs2/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM4/30006_org-SM4_cv-TM1.wav
+          itug2itug_cs2_8: wav/vcc2018v1_mlfb512_vqvae_itug2itug_cs2_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_cs2/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM4/30006_org-SM4_cv-TM1.wav
+          han2han_cs2_8: wav/vcc2018v1_mlfb512_vqvae_han2han_cs2_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_cs2/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SM4/30006_org-SM4_cv-TM1.wav
+          han2han_noncausal_8: wav/vcc2018v1_mlfb512_vqvae_han2han_noncausal_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_noncausal/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SM4/30006_org-SM4_cv-TM1.wav
+          han2han_cs0_8: wav/vcc2018v1_mlfb512_vqvae_han2han_cs0_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_cs0/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SM4/30006_org-SM4_cv-TM1.wav
+          sincconv2itu-g_cs0_8: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_cs0_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_cs0/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM4/30006_org-SM4_cv-TM1.wav
+          sincconv2itu-g_noncausal_8: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_noncausal_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_noncausal/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM4/30006_org-SM4_cv-TM1.wav
+          han_noncausal_pwg_8: wav/train_nodev_all_parallel_wavegan.v1.original.noncausal/wav/checkpoint-400000steps/eval_all/TM1_30006_gen.wav
+          han_causal_pwg_8: wav/train_nodev_all_parallel_wavegan.v1.original/wav/checkpoint-400000steps/eval_all/TM1_30006_gen.wav
+          itug_causal_pwg_8: wav/train_nodev_all_parallel_wavegan.v1.itu-g/wav/checkpoint-400000steps/eval_all/TM1_30006_gen.wav
+          itug2itug_cs0_9: wav/vcc2018v1_mlfb512_vqvae_itug2itug_cs0_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_cs0/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM1/30005_org-SM1_cv-TF2.wav
+          itug2itug_noncausal_9: wav/vcc2018v1_mlfb512_vqvae_itug2itug_noncausal_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_noncausal/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM1/30005_org-SM1_cv-TF2.wav
+          sincconv2itu-g_cs2_9: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_cs2_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_cs2/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM1/30005_org-SM1_cv-TF2.wav
+          itug2itug_cs2_9: wav/vcc2018v1_mlfb512_vqvae_itug2itug_cs2_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_cs2/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM1/30005_org-SM1_cv-TF2.wav
+          han2han_cs2_9: wav/vcc2018v1_mlfb512_vqvae_han2han_cs2_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_cs2/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SM1/30005_org-SM1_cv-TF2.wav
+          han2han_noncausal_9: wav/vcc2018v1_mlfb512_vqvae_han2han_noncausal_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_noncausal/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SM1/30005_org-SM1_cv-TF2.wav
+          han2han_cs0_9: wav/vcc2018v1_mlfb512_vqvae_han2han_cs0_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_cs0/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SM1/30005_org-SM1_cv-TF2.wav
+          sincconv2itu-g_cs0_9: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_cs0_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_cs0/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM1/30005_org-SM1_cv-TF2.wav
+          sincconv2itu-g_noncausal_9: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_noncausal_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_noncausal/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SM1/30005_org-SM1_cv-TF2.wav
+          han_noncausal_pwg_9: wav/train_nodev_all_parallel_wavegan.v1.original.noncausal/wav/checkpoint-400000steps/eval_all/TF2_30005_gen.wav
+          han_causal_pwg_9: wav/train_nodev_all_parallel_wavegan.v1.original/wav/checkpoint-400000steps/eval_all/TF2_30005_gen.wav
+          itug_causal_pwg_9: wav/train_nodev_all_parallel_wavegan.v1.itu-g/wav/checkpoint-400000steps/eval_all/TF2_30005_gen.wav
+          itug2itug_cs0_10: wav/vcc2018v1_mlfb512_vqvae_itug2itug_cs0_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_cs0/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF3/30023_org-SF3_cv-TM2.wav
+          itug2itug_noncausal_10: wav/vcc2018v1_mlfb512_vqvae_itug2itug_noncausal_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_noncausal/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF3/30023_org-SF3_cv-TM2.wav
+          sincconv2itu-g_cs2_10: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_cs2_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_cs2/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF3/30023_org-SF3_cv-TM2.wav
+          itug2itug_cs2_10: wav/vcc2018v1_mlfb512_vqvae_itug2itug_cs2_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_cs2/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF3/30023_org-SF3_cv-TM2.wav
+          han2han_cs2_10: wav/vcc2018v1_mlfb512_vqvae_han2han_cs2_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_cs2/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SF3/30023_org-SF3_cv-TM2.wav
+          han2han_noncausal_10: wav/vcc2018v1_mlfb512_vqvae_han2han_noncausal_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_noncausal/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SF3/30023_org-SF3_cv-TM2.wav
+          han2han_cs0_10: wav/vcc2018v1_mlfb512_vqvae_han2han_cs0_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_cs0/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SF3/30023_org-SF3_cv-TM2.wav
+          sincconv2itu-g_cs0_10: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_cs0_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_cs0/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF3/30023_org-SF3_cv-TM2.wav
+          sincconv2itu-g_noncausal_10: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_noncausal_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_noncausal/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF3/30023_org-SF3_cv-TM2.wav
+          han_noncausal_pwg_10: wav/train_nodev_all_parallel_wavegan.v1.original.noncausal/wav/checkpoint-400000steps/eval_all/TM2_30023_gen.wav
+          han_causal_pwg_10: wav/train_nodev_all_parallel_wavegan.v1.original/wav/checkpoint-400000steps/eval_all/TM2_30023_gen.wav
+          itug_causal_pwg_10: wav/train_nodev_all_parallel_wavegan.v1.itu-g/wav/checkpoint-400000steps/eval_all/TM2_30023_gen.wav
+          itug2itug_cs0_11: wav/vcc2018v1_mlfb512_vqvae_itug2itug_cs0_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_cs0/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF3/30013_org-SF3_cv-TF1.wav
+          itug2itug_noncausal_11: wav/vcc2018v1_mlfb512_vqvae_itug2itug_noncausal_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_noncausal/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF3/30013_org-SF3_cv-TF1.wav
+          sincconv2itu-g_cs2_11: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_cs2_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_cs2/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF3/30013_org-SF3_cv-TF1.wav
+          itug2itug_cs2_11: wav/vcc2018v1_mlfb512_vqvae_itug2itug_cs2_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_itug2itug_cs2/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF3/30013_org-SF3_cv-TF1.wav
+          han2han_cs2_11: wav/vcc2018v1_mlfb512_vqvae_han2han_cs2_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_cs2/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SF3/30013_org-SF3_cv-TF1.wav
+          han2han_noncausal_11: wav/vcc2018v1_mlfb512_vqvae_han2han_noncausal_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_noncausal/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SF3/30013_org-SF3_cv-TF1.wav
+          han2han_cs0_11: wav/vcc2018v1_mlfb512_vqvae_han2han_cs0_train_nodev_all_parallel_wavegan.v1.original/exp/mlfb512_vqvae_han2han_cs0/eval_train_nodev_all_parallel_wavegan.v1.original_wav/200000/wav/SF3/30013_org-SF3_cv-TF1.wav
+          sincconv2itu-g_cs0_11: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_cs0_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_cs0/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF3/30013_org-SF3_cv-TF1.wav
+          sincconv2itu-g_noncausal_11: wav/vcc2018v1_mlfb512_vqvae_sincconv2itu-g_noncausal_train_nodev_all_parallel_wavegan.v1.itu-g/exp/mlfb512_vqvae_sincconv2itu-g_noncausal/eval_train_nodev_all_parallel_wavegan.v1.itu-g_wav/200000/wav/SF3/30013_org-SF3_cv-TF1.wav
+          han_noncausal_pwg_11: wav/train_nodev_all_parallel_wavegan.v1.original.noncausal/wav/checkpoint-400000steps/eval_all/TF1_30013_gen.wav
+          han_causal_pwg_11: wav/train_nodev_all_parallel_wavegan.v1.original/wav/checkpoint-400000steps/eval_all/TF1_30013_gen.wav
+          itug_causal_pwg_11: wav/train_nodev_all_parallel_wavegan.v1.itu-g/wav/checkpoint-400000steps/eval_all/TF1_30013_gen.wav
+      response:
+        - value: 1
+          label: Bad
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png
+        - value: 2
+          label: Poor
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png
+        - value: 3
+          label: Fair
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png
+        - value: 4
+          label: Good
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png
+        - value: 5
+          label: Excellent
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png
+
+
+    - type: finish
+      name: Thank you
+      content: Thank you for attending
+      showResults: true
+      writeResults: true
