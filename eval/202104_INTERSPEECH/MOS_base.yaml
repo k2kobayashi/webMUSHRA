@@ -1,0 +1,51 @@
+# Likert single stimulus page 1 stimuli, 5 responses
+
+testname: Mean opinion score
+testId: MOS
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
+remoteService: service/write.php
+
+pages:
+
+    - type: likert_single_stimulus
+      id: MOS_base
+      name: likert
+      content: "提示された音声の音質に関して，次の5段階の尺度に基づき評価をお願いします．[5: とても良い (Excellent)，4: 良い (Good)，3: 普通 (Fair), 2: 悪い (Poor), 1: とても悪い (Bad)], Play: 再生する，Pause: 停止する, Next: 次に進む"
+      randomize: true
+      stimuli: 
+        
+      response:
+        - value: 1
+          label: Bad
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png
+        - value: 2
+          label: Poor
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png
+        - value: 3
+          label: Fair
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png
+        - value: 4
+          label: Good
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png
+        - value: 5
+          label: Excellent
+          img: configs/resources/images/star_off.png
+          imgSelected: configs/resources/images/star_on.png
+          imgHigherResponseSelected: configs/resources/images/star_on.png
+
+
+    - type: finish
+      name: Thank you
+      content: Thank you for attending
+      showResults: true
+      writeResults: true

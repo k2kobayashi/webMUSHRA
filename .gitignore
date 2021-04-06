@@ -1,3 +1,7 @@
+wav
+tools
+config
+
 doc/jsdoc
 *.log
 .project
